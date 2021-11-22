@@ -1,19 +1,22 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tensorflow Face Detection</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to our CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Face Detection JS</title>
   </head>
-  <body>    
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
-    <script src="script.js"></script>
-    <div id="face-finder">
-  <canvas id="canvas"></canvas>
-  <img src="image.jpg" />
-  <p id="status">Searching, this shouldn't take long...</p>
-</div>
+  <body>
+
+    <!-- #video and #canvas will go here -->
+
+    
+    <!-- IMPORTANT Links -->
+    <!-- Link to the face-api script file -->
+    <script defer src="./face-api.min.js"></script>
+    <!-- Link to our script.js file -->
+    <script defer src="script.js"></script>
   </body>
 </html>
